@@ -26,6 +26,7 @@ int main(){
 	avg = sum/numStudents;
 	printf("\nAvg marks = %d ",avg);
 	fflush(stdout);
+	free(ptr);
 	return 0;
 }
 
